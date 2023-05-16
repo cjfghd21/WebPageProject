@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Clear History</title>
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+
+<body id="delete">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/history">Search History</a></li>
+        <li><a href="/clear">Clear History</a></li>
+    </ul>
+	<div>
+		<h1 id="imgTitle">Are you sure you want to delete?<br></h1>
+        <form id="dateInput" action="http://localhost:<%- port %>/clear" method="post">
+            <input type="submit" id="ymd" value="Delete">
+        </form>
+	</div>
+</body>
+
+</html>

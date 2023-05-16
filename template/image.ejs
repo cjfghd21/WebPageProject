@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>NASA Image</title>
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+
+<body id="imageDisplay">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/history">Search History</a></li>
+        <li><a href="/clear">Clear History</a></li>
+    </ul>
+	<div>
+		<h1 id="imgTitle"><%- title %><br></h1>
+		<img id="image" src="<%- source %>" alt="Astronomy Image"><br>
+		<p><%- explanation %><br><br>
+		</p>
+		<a id= imageLink href="<%- source %>">Link to the Photo</a>
+	</div>
+</body>
+
+</html>

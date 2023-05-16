@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Search Photo</title>
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+
+<body id="index">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/history">Search History</a></li>
+        <li><a href="/clear">Clear History</a></li>
+    </ul>
+
+	<h1 class="header">Search Photo</h1>
+    <h2 class="subHeader">Enter the date below</h2>
+    <form id="dateInput" action="http://localhost:<%- port %>/photo" method="post">
+        <input type="text" id="ymd" name="ymd" placeholder="YYYY-MM-DD">
+        <input type="submit" id="submit">
+    </form>
+</body>
+
+</html>
