@@ -1,4 +1,4 @@
-Description.
+Description:
 
 Simple Webpage that Uses NASA's APOD API to retrive picture of the day on the given input date by the user 
 then shows the picture and its description.
